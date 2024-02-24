@@ -1,11 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-image: url("./assets/home/background-home-desktop.jpg");
+  background-image: url("./assets/home/background-home-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 100vh;
+  font-family: "Roboto Mono", monospace;
+}
+
+#toggle-btn {
+  border: none;
+}
+
+.nav-link {
+  letter-spacing: 1px;
+}
+
+@media (max-width: 767px) {
+  nav {
+  }
+  .toggle-menu {
+    background-color: rgba(211, 211, 211, 0.103);
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding-top: 20px;
+  }
+
+  .toggle-menu ul {
+    display: block !important;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url("./assets/home/background-home-tablet.jpg");
+  }
+
+  .brand-logo {
+    width: 70px;
+  }
+
+  nav {
+    background-color: #131522;
+    padding: 0 60px;
+  }
+
+  .nav-tab {
+    border-bottom: 3px solid white !important;
+  }
+
+  remove-nav-tab {
+    border: none;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    background-image: url("./assets/home/background-home-desktop.jpg");
+  }
+
+  .brand-logo {
+    width: 50px;
+  }
+
+  nav {
+    background-color: rgba(211, 211, 211, 0.103);
+    padding: 0 100px 0 80px;
+  }
+
+  .custom-horizontal-rule {
+    content: " ";
+    /* display: block !important; */
+    /* width: calc(50vw - 30vw); */
+    background-color: gray;
+    height: 1px;
+    position: absolute;
+    left: 10%;
+    top: 5.3125rem;
+  }
 }

@@ -1,8 +1,8 @@
-import React from "react";
-import Header from "../componenets/Header";
+// import React from "react";
+// import Header from "../componenets/Header";
 
 function Home() {
-  return <Header />;
+  // return <Header />;
 }
 
 export default Home;
