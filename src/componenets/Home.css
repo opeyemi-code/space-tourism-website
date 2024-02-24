@@ -1,0 +1,24 @@
+main {
+  font-family: "Roboto Mono", monospace;
+  color: #8286a0;
+}
+
+.title-description-section {
+  height: 100vh;
+}
+
+.title {
+  font-family: inherit;
+  letter-spacing: 3px;
+}
+
+.span-text {
+  font-size: 122px;
+}
+
+.explore-text {
+  padding: 100px 50px;
+  border-radius: 100%;
+  color: #343437;
+  letter-spacing: 3px;
+}
