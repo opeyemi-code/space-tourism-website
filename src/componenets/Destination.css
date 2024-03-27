@@ -1,0 +1,125 @@
+.destination-body-container {
+  background-image: url("../assets/destination/background-destination-mobile.jpg");
+}
+
+.pre-text {
+  color: #8286a0;
+}
+
+.destination-title {
+  /* font-size: 96px; */
+}
+
+.destination-description {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+destination-img-container {
+  padding: 80px 0 0 30px;
+}
+
+.destination-list-item {
+  font-family: "Barlow Condensed", sans-serif;
+  transition: border 1s;
+}
+
+.destination-list-item:hover {
+  cursor: pointer;
+  border-bottom: 3px solid #8286a0;
+}
+
+.destination-distance-heading,
+.destination-travel-heading {
+  /* letter-spacing: 3px; */
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.line {
+  background-color: #383b4b;
+  height: 1px;
+  width: 100%;
+}
+.destination-distance,
+.destination-travel {
+  font-family: "Bellefair", serif;
+}
+
+.destination-img {
+  animation: rotate 30s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .destination-img {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .destination-body-container {
+    background-image: url("../assets/destination/background-destination-tablet.jpg");
+  }
+
+  .destination-description {
+    text-align: center;
+  }
+
+  .line {
+    width: 75%;
+  }
+
+  .destination-footer {
+    width: 75%;
+  }
+}
+
+@media (min-width: 996px) {
+  .destination-body-container {
+    background-image: url("../assets/destination/background-destination-desktop.jpg");
+  }
+
+  .heading-1 {
+    font-size: 20px;
+  }
+
+  .destination-title {
+    font-size: 60px;
+  }
+
+  .destination-description {
+    text-align: start;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .line {
+    width: 100%;
+  }
+
+  .destination-footer {
+    width: 100%;
+  }
+}
+
+.destination-list-item {
+  font-size: 20px !important;
+}
+
+@media (min-width: 1200px) {
+  .destination-title {
+    font-size: 80px;
+  }
+
+  .destination-description {
+    font-size: 20px;
+    line-height: 2;
+  }
+}

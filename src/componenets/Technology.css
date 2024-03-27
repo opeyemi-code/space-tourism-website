@@ -1,0 +1,46 @@
+.technology-body-container {
+  background-image: url("../assets/technology/background-technology-mobile.jpg");
+}
+.technology-btns {
+  background-color: transparent;
+  border: 1px solid gray;
+  color: #fff;
+}
+
+.technology-btns:hover {
+  border: 1px solid white;
+}
+
+.technology-description {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .technology-description {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .technology-body-container {
+    background-image: url("../assets/technology/background-technology-tablet.jpg");
+  }
+}
+
+@media (min-width: 996px) {
+  .technology-body-container {
+    background-image: url("../assets/technology/background-technology-desktop.jpg");
+  }
+
+  .technology-description {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .technology-description {
+    font-size: 20px !important;
+    line-height: 2;
+  }
+}

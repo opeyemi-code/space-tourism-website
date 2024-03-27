@@ -1,24 +1,146 @@
+.home-body-container {
+  background-image: url("../assets/home/background-home-mobile.jpg");
+}
+
 main {
-  font-family: "Roboto Mono", monospace;
   color: #8286a0;
 }
 
-.title-description-section {
-  height: 100vh;
-}
-
 .title {
-  font-family: inherit;
   letter-spacing: 3px;
-}
-
-.span-text {
-  font-size: 122px;
 }
 
 .explore-text {
-  padding: 100px 50px;
+  /* padding: 150px 100px; */
   border-radius: 100%;
   color: #343437;
   letter-spacing: 3px;
+}
+
+@media (max-width: 768px) {
+  .title-description-section {
+    padding: 60px;
+  }
+
+  .title {
+    font-size: 1rem;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 0.1688rem;
+  }
+  .span-text {
+    font-size: 80px;
+    font-family: "Bellefair", sans-serif;
+  }
+
+  .description {
+    font-size: 0.9375rem;
+    line-height: 25px;
+  }
+  .title,
+  .description {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .explore-text {
+    padding: 100px 60px;
+    margin-bottom: 40px;
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-body-container {
+    background-image: url("../assets/home/background-home-tablet.jpg");
+  }
+
+  .title-description-section {
+    padding-top: 80px;
+  }
+
+  .title {
+    font-size: 20px;
+    letter-spacing: 3.5px;
+  }
+
+  .span-text {
+    font-size: 138px;
+  }
+
+  .description {
+    /* width: 50%; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+  }
+
+  .title,
+  .description {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+  .explore-text {
+    padding: 120px 70px;
+  }
+}
+
+@media (min-width: 996px) {
+  .home-body-container {
+    background-image: url("../assets/home/background-home-desktop.jpg");
+  }
+
+  .title-description-section {
+    padding-top: 0;
+  }
+  .description {
+    width: 100%;
+  }
+
+  .title-description-section {
+    height: 100vh;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .span-text {
+    font-size: 122px;
+  }
+
+  .description {
+    font-size: 24px;
+    padding-left: 50px;
+  }
+
+  .title,
+  .description {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .title,
+  .description {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .span-text {
+    font-size: 138px;
+  }
+
+  .description {
+    font-size: 24px;
+    padding-left: 0;
+  }
 }
