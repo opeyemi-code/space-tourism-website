@@ -20,7 +20,7 @@ function Home() {
                 of this world experience!
               </p>
             </section>
-            <section className="explore-section col-lg d-flex flex-column justify-content-center align-items-center">
+            <section className="explore-section col-lg d-flex flex-column justify-content-center align-items-center mt-md-5 mt-lg-0">
               <h2 className="explore-text bg-light fw-normal border">
                 EXPLORE
               </h2>
