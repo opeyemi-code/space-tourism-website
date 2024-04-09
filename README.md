@@ -14,7 +14,6 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
   - [Author](#author)
-  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -48,7 +47,7 @@ Users should be able to:
 
 ### What I learned
 
-During the course of this project, I learnt a lot of react concepts such as React Router, React Hooks (useSate, useEffect) and code splitting uing React Lazy Loading.
+Throughout this project, I gained valuable insights into various React concepts, including React Router, React Hooks (useState, useEffect), and implementing code splitting through React Lazy Loading.
 
 ## Author
 
