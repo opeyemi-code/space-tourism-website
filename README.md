@@ -27,7 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![space-tourism-website-desktop](./src/assets/screenshots/space-tourism-website-desktop.png)
+
+![space-tourism-website-tablet](./src/assets/screenshots/space-tourism-website-tablet.png)
+
+![space-tourism-website-mobile](./src/assets/screenshots/space-tourism-website-mobile.png)
 
 ### Links
 
