@@ -88,18 +88,18 @@ function Destination() {
                 <div className="line my-4"></div>
                 <div className="destination-footer d-flex justify-content-between">
                   <div className="me-5">
-                    <h3 className="fs-6 destination-distance-heading">
+                    <h3 className="destination-distance-heading">
                       AVG. DISTANCE
                     </h3>
-                    <p className="destination-distance text-light fs-3">
+                    <p className="destination-distance text-light">
                       {destinationPost.distance}
                     </p>
                   </div>
                   <div className="ms-5">
-                    <h3 className="fs-6 destination-travel-heading">
+                    <h3 className="destination-travel-heading">
                       EST. TRAVEL TIME
                     </h3>
-                    <p className="destination-travel text-light fs-3">
+                    <p className="destination-travel text-light">
                       {destinationPost.travel}
                     </p>
                   </div>

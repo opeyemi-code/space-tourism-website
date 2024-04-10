@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap");
+@import url("https://fontsgoogleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap");
 
 * {
   margin: 0;
@@ -104,11 +104,7 @@ header .list-item {
   }
 
   .heading-1 {
-    font-size: 18px;
-  }
-
-  .heading-3 {
-    /* font-size: 24px; */
+    font-size: 16px;
   }
 }
 
@@ -134,11 +130,6 @@ header .list-item {
     text-align: start;
   }
 
-  /* .heading-1,
-  .heading-3 {
-    font-size: 28px;
-  } */
-
   .destination-img,
   .crew-img,
   .technology-img {
@@ -160,8 +151,12 @@ header .list-item {
     padding: 0 100px 0 150px;
   }
 
+  list-item:hover {
+    border-bottom: 3px solid #8286a0;
+  }
+
   .heading-1 {
-    font-size: 28px !important;
+    font-size: 20px;
   }
 
   .heading-1,
@@ -190,14 +185,9 @@ header .list-item {
 }
 
 @media (min-width: 1200px) {
-  /* .custom-horizontal-rule::after {
-    width: 45vw;
-    left: 15%;
-  } */
-
   .custom-horizontal-rule {
     height: 1px;
-    width: 35vw;
+    width: 25%;
     background-color: gray;
     position: absolute;
     margin-left: 30px;
@@ -206,8 +196,9 @@ header .list-item {
   }
 
   .heading-1 {
-    font-size: 2rem !important;
+    font-size: 24px;
   }
+
   .heading-3 {
     font-size: 60px;
   }
@@ -215,7 +206,7 @@ header .list-item {
 
 @media (min-width: 1400px) {
   .custom-horizontal-rule {
-    width: 45vw;
+    width: 40%;
     left: 10%;
   }
 }

@@ -10,7 +10,6 @@ import "../componenets/Crew.css";
 function Crew() {
   const [selectedCrew, setSelectedCrew] = useState("Anousheh Ansari");
   const [selectedCrewImage, setSelectedCrewImage] = useState(anoushehAnasari);
-  // const [count, setCount] = useState(0);
 
   useEffect(() => {
     const crewBtns = document.querySelectorAll(".crew-btn");
@@ -43,7 +42,7 @@ function Crew() {
     <div className="crew-body-container custom-body">
       <Header />
       <main id="crew">
-        <div className="container pt-5">
+        <div className="container pt-sm-5">
           <h1 className="heading-1 crew-heading fw-normal mb-5 mb-lg-0">
             <span className="me-3">02</span>{" "}
             <span className="text-light">MEET YOUR CREW</span>

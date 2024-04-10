@@ -1,9 +1,6 @@
 import { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-// import Destination from "./pages/Destination";
-// import Crew from "./pages/Crew";
-// import Technology from "./pages/Technology";
 import React from "react";
 
 const DestinationPage = lazy(() => import("./pages/Destination"));
@@ -16,7 +13,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>
-        <Route path="/home" element={<Home />}></Route>
         <Route
           path="/destination"
           element={
@@ -24,7 +20,7 @@ function App() {
               <DestinationPage />
             </Suspense>
           }
-        ></Route>
+        />
         <Route
           path="/crew"
           element={
@@ -32,7 +28,7 @@ function App() {
               <CrewPage />
             </Suspense>
           }
-        ></Route>
+        />
         <Route
           path="/technology"
           element={
@@ -40,7 +36,7 @@ function App() {
               <TechnologyPage />
             </Suspense>
           }
-        ></Route>
+        />
       </Routes>
     </BrowserRouter>
   );

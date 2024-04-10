@@ -14,9 +14,7 @@ function Header() {
     navLinks.forEach((navLink) => {
       if (navLink.innerText.toLowerCase().includes(main.id)) {
         navLink.classList.add("tab");
-        // console.log("yes");
       }
-      // console.log(navLink.innerText);
     });
 
     navLinks.forEach((navLink) => {
