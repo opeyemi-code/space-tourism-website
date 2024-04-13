@@ -24,7 +24,7 @@ function Destination() {
         ? listItem.classList.add("tab")
         : listItem.classList.remove("tab");
     });
-  });
+  }, [selectedDestination]);
 
   function handleDestinationClick(destinationName, e) {
     setSelectedDestination(destinationName);

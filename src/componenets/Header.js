@@ -29,7 +29,7 @@ function Header() {
         e.currentTarget.classList.add("tab");
       });
     });
-  });
+  }, []);
 
   function toggleMenu(e) {
     const nav = document.querySelector("nav");
